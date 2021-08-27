@@ -1,0 +1,130 @@
+.navbarHG {
+    background-color: #b3bcbd;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color : white;
+}
+
+.gambar {
+    width: 30px;
+    margin-left:10px;
+}
+
+.login {
+    margin-left : 2px;
+}
+
+.navbarHG {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-item {
+    margin-left : 30px;
+}
+
+.navhome {
+    background-color: #b3bcbd;
+    transition: 0.3s;
+}
+.navhome:hover {
+    background-color: lightblue;
+}
+
+.navlearncoding {
+    background-color : #b3bcbd;
+    transition : 0.3s;
+}
+
+.navlearncoding:hover {
+    background-color: lightblue;
+}
+
+.navlearnarduino{
+    background-color: #b3bcbd;
+    transition : 0.3s;
+}
+
+.navlearnarduino:hover {
+    background-color: lightblue;
+}
+
+#buton {
+    background-color: #b3bcbd;
+    border: none;
+}
+
+#tombolClose {
+    width: 10px;
+    border : none;
+    border-color: white;
+}
+
+.jumbotron {
+    margin-top: 50px;
+}
+
+/* =================================== */
+/* DESKTOP VERSION */
+/* =================================== */
+
+@media (min-width: 992px) { 
+    .gambar {
+        width: 60px;
+        margin-left:100px;
+
+    }
+
+    .login {
+        margin-left : 30px;
+        margin-right: 100px;
+        height: 50px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .navhome{
+        font-size: 25px;
+    }
+
+    .navlearncoding {
+        font-size: 25px;
+    }
+
+    .dropdown-toggle {
+        font-size: 25px;
+    }
+
+    .navlearnarduino {
+        font-size: 25px;
+    }
+
+    .btn-modal-success {
+        width: 70px;
+    }
+
+    .searchh{
+        margin-top:1px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color : white;
+    }
+
+    .carousel {
+        margin-top:50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    }
+
+    #carouselExampleControls {
+        border-radius: 25px;
+    }
+    .carousel-item img {
+        height: 100% !important;
+        border-radius: 25px;
+    }
+ }
+
+
